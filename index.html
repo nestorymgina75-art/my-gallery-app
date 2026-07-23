@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyGallery - App ya Picha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header>
+    <h1>MyGallery 📸</h1>
+    <p>Postia picha zako hapa</p>
+  </header>
+
+  <!-- UPLOAD FORM -->
+  <div class="upload-box">
+    <input type="file" id="imageInput" accept="image/*">
+    <img id="preview" src="" alt="">
+    <textarea id="caption" placeholder="Andika maelezo ya picha..."></textarea>
+    <button id="postBtn">Post</button>
+  </div>
+
+  <!-- FEED YA PICHA -->
+  <div id="feed" class="feed"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
